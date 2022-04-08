@@ -30,6 +30,7 @@ void MainWindow::on_pushButtonOpen_clicked()
         openFile.open(QIODevice::ReadOnly);
         QByteArray content = openFile.readAll();
         ui->textEditAdres->setText(QString(content));
+        //merhsbsbs
 }
 void MainWindow::on_pushButtonSave_clicked()
 {
