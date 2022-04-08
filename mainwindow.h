@@ -5,6 +5,7 @@
 #include "QPushButton"
 #include "QVector"
 #include <QMap>
+#include <AdsErr.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
